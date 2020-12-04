@@ -1,0 +1,12 @@
+{
+	"location":"Exeter",
+	"region":"South West",
+	"country":"gb",
+	"news_api_key" : "16a2b984c0da4034927d3968a7e8f35a",
+	"weather_api_key":"782af658cea59a7629ccb35b406d8857",
+	"image":"alarm_clock_icon.jpg",
+	"minute_interval":60,
+	"template":"template.html"
+}
+
+	

@@ -1,0 +1,6 @@
+COVID-19 in the UK - API Service
+Current parameters: 
+{
+    "filters": "areaType=region;areaName=South West",
+    "structure": "{\"newCasesByPublishDate\":\"newCasesByPublishDate\"}"
+}

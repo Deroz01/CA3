@@ -1,0 +1,60 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:47:30] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:47:31] "[36mGET /static/images/alarm_clock_icon.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:47:38] "[37mGET /index?alarm=2020-12-04T10%3A48&two=Hello&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:49:24] "[37mGET /index?alarm=2020-12-04T10%3A51&two=Hello&news=news&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:50:24] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:53:30] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:53:49] "[37mGET /index?alarm=2020-12-04T10%3A54&two=Hello&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:55:33] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:55:40] "[37mGET /index?notif=Breaking+News+-+FTSE+rises+despite+Brexit+deadlock+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:06:07] "[37mGET /index?notif=Breaking+News+-+Bank+of+England+urged+to+investigate+£50bn+of+%27missing%27+banknotes+-+The+Independent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:06:12] "[37mGET /index?alarm=2020-12-04T11%3A07&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:10] "[37mGET /index?alarm=2020-12-04T11%3A15&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:32] "[37mGET /index?alarm=2020-12-04T11%3A15&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:35] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:37] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:14:44] "[37mGET /index?notif=Breaking+News+-+South+Africa+vs+England%3A+First+ODI+postponed+after+Proteas+player+tests+positive+for+coronavirus+-+Sky+Sports HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:17:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:17:22] "[37mGET /index?alarm=2020-12-04T11%3A18&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:21:53] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:22:01] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:22:08] "[37mGET /index?alarm=2020-12-04T11%3A23&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:24:30] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:25:13] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+ERROR:CA3:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\12der\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\12der\OneDrive\Documents\CA3\CA3.py", line 118, in main
+    if say:
+UnboundLocalError: local variable 'say' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:25:19] "[35m[1mGET /index?alarm=2020-12-04T11%3A26&two=Hello&news=news HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:35:09] "[37mGET /index?alarm=2020-12-04T11%3A26&two=Hello&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:35:22] "[37mGET /index?alarm=2020-12-04T11%3A36&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:35:25] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:35:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:37:11] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:37:36] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:37:43] "[37mGET /index?alarm=2020-12-04T11%3A38&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 11:37:45] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
