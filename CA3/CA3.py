@@ -71,9 +71,9 @@ def main():
     alarm_item = request.args.get('alarm_item')
     for item in alarms:
         if item['title'] == alarm_item:  
-            say = False
             alarm_number = len(alarms)
             alarms.remove(item)
+            s.cancel(e1)
             assert len(alarms)+1 == alarm_number
     
     """creating the alarms"""    
@@ -113,7 +113,7 @@ def main():
         if alarm_date:    
             alarm_hhmm = alarm_time[-5:-3] + ':' + alarm_time[-2:]
             delay = hhmm_to_seconds(alarm_hhmm) - hhmm_to_seconds(current_time_hhmm())
-            s.enter(int(delay), 1, tts_request, [alarms[0]['announcements'],]) 
+            e1 = s.enter(int(delay), 1, tts_request, [alarms[0]['announcements'],]) 
            
     return render_template(template, title=title(), alarms=alarms, notifications=notifications,image=image)
 
